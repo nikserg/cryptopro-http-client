@@ -1,5 +1,5 @@
 {
-    "name": "nikserg/cryptopro-http-client",
+    "name": "nikserg/cryptoprohttpclient",
     "description": "HTTP client based on console CryptoPro command",
     "keywords": ["http", "cryptopro"],
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "autoload": {
       "psr-4": {
-        "nikserg\\cryptopro-http-client\\": ""
+        "nikserg\\cryptoprohttpclient\\": ""
       }
     },
     "require": {
