@@ -1,0 +1,18 @@
+{
+    "name": "nikserg/cryptopro-http-client",
+    "description": "HTTP client based on console CryptoPro command",
+    "keywords": ["http", "cryptopro"],
+    "authors": [
+        {
+            "name": "Nikita Zarubin",
+            "email": "nikitadimitrov@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "nikserg\\cryptopro-http-client\\": ""
+      }
+    },
+    "require": {
+    }
+}
