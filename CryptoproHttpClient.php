@@ -13,7 +13,7 @@ class CryptoproHttpClient {
     {
         $requestBody = str_replace("'", "'\"'\"'", $requestBody);
 
-        $shellCommand = 'yes "o" | '. self::$curlExec .
+        $shellCommand = self::$curlExec .
             ' -k -s '. $url . ' '.
             '--header "Content-Type: text/xml; charset=\"UTF-8\"" ';
 
